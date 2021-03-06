@@ -13,7 +13,7 @@
 
 # 安装OMSA
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/uwtom/DellOMSA/master/bootstrap.sh && chmod +x bootstrap.sh && bash bootstrap.sh
+wget https://github.com/uwtom/DellOMSA/blob/master/bootstrap.sh && chmod +x bootstrap.sh && bash bootstrap.sh
 yum install -y net-snmp net-snmp-devel net-snmp-utils wget perl OpenIPMI
 yum  -y install srvadmin-all                           #安装路径：/opt/dell/srvadmin/
 /opt/dell/srvadmin/sbin/srvadmin-services.sh start     #启动OMSA
